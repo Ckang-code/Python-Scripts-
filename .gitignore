@@ -1,17 +1,77 @@
-# Python cache
+# ===========================
+# Python-specific
+# ===========================
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
 
 # Virtual environments
 .venv/
+venv/
 env/
+ENV/
 
-# OS files
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ===========================
+# OS / Editor junk
+# ===========================
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
 
-# PCAPs or large files
+# ===========================
+# Security / Sensitive Data
+# ===========================
+# Common credential files
+*.env
+*.key
+*.pem
+*.crt
+*.cert
+*.csr
+
+# API keys or secrets
+secrets.json
+config.json
+
+# ===========================
+# Cybersecurity Artifacts
+# ===========================
+# Network captures
 *.pcap
 *.pcapng
 
-# Secrets
-*.env
+# Memory dumps
+*.dmp
+*.bin
+*.mem
+
+# Logs
+*.log
+logs/
+*.tmp
+tmp/
+
+# Tool outputs
+output/
+results/
+reports/
+
+# ===========================
+# IDE / Project metadata
+# ===========================
+.vscode/
+.idea/
+*.iml
+

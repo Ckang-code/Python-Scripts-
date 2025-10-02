@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+
+# OS files
+.DS_Store
+
+# PCAPs or large files
+*.pcap
+*.pcapng
+
+# Secrets
+*.env
